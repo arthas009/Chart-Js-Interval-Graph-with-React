@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import Chart from 'chart.js';
 import 'chartjs-plugin-zoom';
 
+/*
+* WE WILL KEEP OUR CHART IN STATE TO ACCESS ANYWHERE
+*/
 
 class RightUpperGraphRenderer extends Component {
     constructor(props) {
